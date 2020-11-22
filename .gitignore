@@ -3,3 +3,4 @@
 code/.vs
 code/ATV Control/Debug
 fp-info-cache
+*.kicad_pcb-bak
