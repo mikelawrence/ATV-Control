@@ -21,9 +21,8 @@
  *
  * In addition to pushbutton control the outputs are automatically enabled by other control inputs. 
  * V1 Output is turned on when the High beam input is turned on (HB input 12V).
- * V2 Output is turned on automatically when the ATV is put into reverse (REV input 12V).
- * When V1 and V2 Outputs are turned on automatically the LED indicators breathe to indicate how they were
- * turned on.
+ * V2 Output is turned on when the ATV is put into reverse (REV input 12V).
+ * When V1 and V2 Outputs are turned on via HB or REV inputs the LED indicator intensity breathes.
  *
  * Delay time to turn Outputs off when Ignition is off is configurable.
  *
@@ -56,7 +55,8 @@
  * All indicator LEDs (HSWLR_EN, HSWLG_EN, HSWLG_EN, SW1L_EN and SW2L_EN) outputs are controlled by 
  * Output Compares which allows PWM of the LED (brightness adjustment).
  * 
- * The main LED outputs V1 and V2 also use Output Compares for PWM of the LED light intensity.
+ * The main LED outputs V1 and V2 are connected to pins that can be used as Output Compares. So it is possible
+ * to use PWM to modulate Output LED light intensity. Currently this code does not support this.
  * Both V1 and V2 can a fixed maximum and a soft start and stop.
  *
  */
@@ -94,9 +94,8 @@ FUSES =
 #define TRUE							1
 #define OFF								FALSE
 #define ON								TRUE
-// when defined the Reverse light (V2 out) will only come on when Low beam is on
-//#define V2ON_ONLY_WHEN_LB_ON
-#define DEFAULT_DELAY_TIME_MINUTES		1
+// Default number of minutes LEDs stay on when turned one with Ignition Off
+#define DEFAULT_DELAY_TIME_MINUTES		5
 // Number of seconds to activate programming sequence
 #define PROG_ACTIVATE_SECONDS			10
 // Number of milliseconds for LED to be ON or OFF when flashing

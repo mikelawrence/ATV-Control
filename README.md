@@ -37,7 +37,7 @@ I use Sugru moldable silicone to encapsulate this PCB to prevent water damage.
 
 ## End Result
 
-The push button switches were installed in the center headlight cluster. Looking from the front the center pushbutton is the horn. The two push button on the right control the LED lights. The two buttons on the left are buttons for the Homelink controller ([60-HMLKV5BLK](https://www.amazon.com/gp/product/B00A79G9FY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)) so I can control my front gate and one garage door. This is not part of the ATV Control PCB.
+The push button switches were installed in the center headlight cluster. Looking from the front the center pushbutton is the horn. The two push buttons on the right control the LED lights. The two buttons on the left are buttons for the Homelink controller ([60-HMLKV5BLK](https://www.amazon.com/gp/product/B00A79G9FY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)) so I can control my front gate and one garage door. This is not part of the ATV Control PCB.
 
 <img src="meta/ATV-Buttons.jpg" width="100%">
 
