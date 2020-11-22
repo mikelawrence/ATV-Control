@@ -21,7 +21,7 @@ The horn is controlled by a switch just like the LED outputs but it has three in
 * This board should have a 20A fuse on the input for safety.
 * The Reverse Input is configured for my Yamaha Grizzly 700. The reverse switch is connected to ground when ATV is in reverse, otherwise it is pulled up to 12V by the Engine Control Unit. R17 is used to pulldown this input to prevent a floating input from causing problems. However this pulldown is a high enough impedance to not affect the pullup in the Engine Control Unit. You will need to adjust this input to match your specific ATV.
 * The board's current usage is about than 0.25 mA when idle. This represents a small but never the less non-zero current draw on the ATV's battery even when the ignition is off. My ATV is used frequently so this is not an issue but if you plan on storing the ATV long term you should be using a trickle charger to keep the battery topped off.
-* I used High-Side switch from Infineon for all the high current outputs. These chips are designed for automotive environments to drive resitive, capacitive, and inductive loads while providing over current, over temperature, over voltage, and reverse polarity protections. I also used these High-Side Switches for the indicator LEDs even though it is a bit overkill.
+* I used High-Side switch from Infineon for all the high current outputs. These chips are designed for automotive environments to drive resistive, capacitive, and inductive loads while providing over current, over temperature, over voltage, and reverse polarity protections. I also used these High-Side Switches for the indicator LEDs even though it is a bit overkill.
 * The Horn circuit is a realtively high current at 20A. There is missing solder mask on the bottom of the PCB. It is expected that additional solder will be placed on this section to improve current handling. You should also plan on adding a 16 AWG wire between the GND input and the H- connections.
 * This PCB design expects 2 oz copper for both sides.
 * Assembling the this PCB will require a reflow oven or hot air. [Whizoo](http://www.whizoo.com/) sells a nice kit to make your own reflow oven.
@@ -39,15 +39,14 @@ I use Sugru moldable silicone to encapsulate this PCB to prevent water damage.
 
 ## End Result
 
-The push button switches were install in the center headlight cluster. The picture below is from the front of the ATV. The center pushbutton is the horn. The two on the right are for the LED lights. The two buttons on the left are buttons for the Homelink controller ([60-HMLKV5BLK](https://www.amazon.com/gp/product/B00A79G9FY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) so I can control my front gate and one garage door. This is not part of the ATV Control PCB.
+The push button switches were install in the center headlight cluster. The picture below is from the front of the ATV. The center pushbutton is the horn. The two on the right are for the LED lights. The two buttons on the left are buttons for the Homelink controller ([60-HMLKV5BLK](https://www.amazon.com/gp/product/B00A79G9FY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)) so I can control my front gate and one garage door. This is not part of the ATV Control PCB.
 
-<img src="meta/ATV-Buttons.jpg" width="100%">
+<img src="meta/ATV-Buttons.jpg" width="85%">
 
 For the front of the ATV I installed a Black Oak [10" Dual Row, 100W Flood LED Light Bar](https://www.blackoakled.com/collections/double-row-led/products/10-two-row-led-light-bar-combination-beam-pattern-white-osram) and two Black Oak [2" Single Row, 20W Scene LED Light Bars](https://www.blackoakled.com/products/new-2-inch-single-row-series-led-light-bar-with-scene-optics?_pos=6&_sid=0f2b0b32f&_ss=r). All three LED Light Bars draw just uner 7 A which is just below the maximum current of 7.5 A for that output.
 
 <img src="meta/ATV-Front.jpg" width="100%">
 
-
-I added a Black Oak [2" 40W Diffused LED Pod Light](https://www.blackoakled.com/products/new-2-inch-diffused-pod-light-powerful-turret-style-pod-40w-cree-xm-l2?_pos=1&_sid=a00cf89ab&_ss=r)) to the rear of the ATV mainly as a backup light. This LED Light draws 4.1 A which is well within 7.5 A maximum.
+I added a Black Oak [2" 40W Diffused LED Pod Light](https://www.blackoakled.com/products/new-2-inch-diffused-pod-light-powerful-turret-style-pod-40w-cree-xm-l2?_pos=1&_sid=a00cf89ab&_ss=r) to the rear of the ATV mainly as a backup light. This LED Light draws 4.1 A which is well within 7.5 A maximum.
 
 <img src="meta/ATV-Rear.jpg" width="100%">
