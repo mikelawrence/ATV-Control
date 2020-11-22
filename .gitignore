@@ -1,0 +1,5 @@
+
+*.sch-bak
+code/.vs
+code/ATV Control/Debug
+fp-info-cache

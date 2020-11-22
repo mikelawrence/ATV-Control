@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ATV Control", "ATV Control\ATV Control.cproj", "{C19EDD0D-C5CF-4C2B-8227-EC467CF26D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19EDD0D-C5CF-4C2B-8227-EC467CF26D4A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{C19EDD0D-C5CF-4C2B-8227-EC467CF26D4A}.Debug|AVR.Build.0 = Debug|AVR
+		{C19EDD0D-C5CF-4C2B-8227-EC467CF26D4A}.Release|AVR.ActiveCfg = Release|AVR
+		{C19EDD0D-C5CF-4C2B-8227-EC467CF26D4A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
