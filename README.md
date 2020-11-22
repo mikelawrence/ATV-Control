@@ -33,8 +33,21 @@ The horn is controlled by a switch just like the LED outputs but it has three in
 
 The microcontroller is a Atmel/Microchip XMega8E5. Software is written in C using the free [Microchip Studio for AVR](https://www.microchip.com/mplab/microchip-studio) free cross compiler and development environment. My normal AVR debugging tool is [Atmel-ICE](https://www.microchip.com/DevelopmentTools/ProductDetails/atatmel-ice). You can get it for as low as $62 in the form of a board from Digikey or Mouser. Instead of the standard programming header I use the Tag-Connect cable and it's space saving [footprint](https://www.tag-connect.com/product/tc2030-nl-fp-footprint). [This](https://www.tag-connect.com/product/tc2030-icespi-nl-no-leg-cable-for-use-with-atmel-ice) is Tag-Connect cable I use with the Atmel-ICE.
 
-## Protection Against the Elements
+## Board Installation
 
 I use Sugru moldable silicone to encapsulate this PCB to prevent water damage.
 
-<img src="meta/Heat Shrink 1.jpg" width="50%"><img src="meta/Heat Shrink 2.jpg" width="50%">
+## End Result
+
+The push button switches were install in the center headlight cluster. The picture below is from the front of the ATV. The center pushbutton is the horn. The two on the right are for the LED lights. The two buttons on the left are buttons for the Homelink controller ([60-HMLKV5BLK](https://www.amazon.com/gp/product/B00A79G9FY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) so I can control my front gate and one garage door. This is not part of the ATV Control PCB.
+
+<img src="meta/ATV-Buttons.jpg" width="100%">
+
+For the front of the ATV I installed a Black Oak [10" Dual Row, 100W Flood LED Light Bar](https://www.blackoakled.com/collections/double-row-led/products/10-two-row-led-light-bar-combination-beam-pattern-white-osram) and two Black Oak [2" Single Row, 20W Scene LED Light Bars](https://www.blackoakled.com/products/new-2-inch-single-row-series-led-light-bar-with-scene-optics?_pos=6&_sid=0f2b0b32f&_ss=r).
+
+<img src="meta/ATV-Front.jpg" width="100%">
+
+
+I added a Black Oak [2" 40W Diffused LED Pod Light](https://www.blackoakled.com/products/new-2-inch-diffused-pod-light-powerful-turret-style-pod-40w-cree-xm-l2?_pos=1&_sid=a00cf89ab&_ss=r) to the rear of the ATV mainly as a backup light.
+
+<img src="meta/ATV-Rear.jpg" width="100%">
