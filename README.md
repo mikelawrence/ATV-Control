@@ -12,9 +12,7 @@ The horn is controlled by a switch just like the LED outputs but it has three in
 
 ## Board Preview
 
-<img src="meta/ATV-Control-Front.png" style="width:100%">
-
-<img src="meta/ATV-Control-Back.png" style="width:100%">
+<img src="meta/ATV-Control-Front.png" width="48%"> <img src="meta/ATV-Control-Back.png" width="48%">
 
 ## Notes
 
