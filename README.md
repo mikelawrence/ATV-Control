@@ -48,3 +48,9 @@ For the front of the ATV I installed a Black Oak [10" Dual Row, 100W Flood LED L
 I added a Black Oak [2" 40W Diffused LED Pod Light](https://www.blackoakled.com/products/new-2-inch-diffused-pod-light-powerful-turret-style-pod-40w-cree-xm-l2?_pos=1&_sid=a00cf89ab&_ss=r) to the rear of the ATV mainly as a backup light. This LED Light draws 4.1 A which is just fine for the LED outputs. The accessory brush guard has a nice mounting point for this light right in the middle and well protected.
 
 <img src="meta/ATV-Rear.jpg" width="100%">
+
+Here is a picture taken at night just after dusk. This is the front shot with all three light nbars on. The fence line is 200 ft away. The shot is from behind the ATV. The slightly different color temperature on the side is from the smaller light bars on each side. I intended to light a bit more on the sides and I'm happy with the results.
+
+<img src="meta/ATV-Rear-Dark.jpg" width="100%">
+
+This the rear shot at the same time (slightly after dusk). In this case the tree line is about 25 ft away. All other lights are off.
